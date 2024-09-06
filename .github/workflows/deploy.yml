@@ -48,6 +48,6 @@ jobs:
           docker push ghcr.io/elias-ik/blazorssrprerenderedinteractivepage:${{ env.sha }}
           docker push ghcr.io/elias-ik/blazorssrprerenderedinteractivepage:latest
 
-#      - name: Call Portainer webhook to update stack
-#        run: |
-#          curl -X POST -H "Access-Control-Allow-Origin: *" https://portainer.s1.elias.dev/api/stacks/webhooks/xxxxxxx
+      - name: Call Portainer webhook to update stack
+        run: |
+          curl -X POST -H "Access-Control-Allow-Origin: *" https://portainer.s1.elias.dev/api/stacks/webhooks/33e96560-a62d-49d3-b98a-d403412631c0
