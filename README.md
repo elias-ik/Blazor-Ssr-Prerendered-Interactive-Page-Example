@@ -16,5 +16,5 @@ time it is called, the page is prerendered while the weather component is intera
 This gives you the possibility to prerender your page and still have interactive components 
 depending on prerendered object fetching.
 
-![illustrated](img.excalidraw.png)
+![diagram](img.excalidraw.png)
 
