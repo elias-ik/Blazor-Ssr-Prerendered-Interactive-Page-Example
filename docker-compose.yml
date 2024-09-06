@@ -1,0 +1,17 @@
+﻿services:
+  blazorssrprerenderedinteractivepage:
+    image: ghcr.io/elias-ik/blazorssrprerenderedinteractivepage:latest
+    build:
+      context: .
+      dockerfile: BlazorSsrPrerenderedInteractivePage/BlazorSsrPrerenderedInteractivePage/Dockerfile
+    networks:
+      - caddy
+    labels:
+      caddy: BlazorSsrPrerenderedInteractivePage.s1.elias.dev
+      caddy.reverse_proxy: "{{upstreams 8080}}"
+
+networks:
+  caddy:
+    external: true
+
+
