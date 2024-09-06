@@ -1,6 +1,7 @@
 # Blazor Ssr Prerendered Interactive Page
 
-[DEMO](https://blazorssrprerenderedinteractivepage.s1.elias.dev/)
+[DEMO](https://short-links.org/r/ZGggl) 
+<!-- https://short-links.org/a/56e749c9 -->
 
 This repo is an example of a SSR (Prerendered) 
 Blazor page with an Interactive component, it solves the double 
